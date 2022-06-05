@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./components/Header";
 import Balance from "./components/Balance";
 import History from "./components/History";
+import NewTransaction from "./components/NewTransaction";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Header />
       <Balance />
       <History />
+      <NewTransaction />
     </div>
   );
 }

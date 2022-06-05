@@ -19,7 +19,7 @@ const Transaction = ({ desc, amount, income }) => {
           {symbol}
           {amount}
         </p>
-        <div className={`${color} w-4`}></div>
+        <div className={`${color} w-2 rounded-r`}></div>
       </div>
     </div>
   );
